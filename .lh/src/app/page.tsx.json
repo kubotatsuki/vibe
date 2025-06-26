@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/app/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1750950357104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1750950382306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+const Page\n+ = () => {\n+  return (  );\n+}\n+ \n+export default Page\n+;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1750950392355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-const Page\n- = () => {\n-  return (  );\n+const Page = () => {\n+  return ( \n+    \n+   );\n\\ No newline at end of file\n }\n  \n-export default Page\n-;\n+export default Page;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1750950675702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n const Page = () => {\n   return ( \n-    \n+    <div>\n+      <h1>Hello Vibe</h1>\n+    </div>\n+    </>\n    );\n }\n  \n export default Page;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1750950682581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n const Page = () => {\n   return ( \n-    <div>\n+    <div className=\"\">\n       <h1>Hello Vibe</h1>\n     </div>\n-    </>\n    );\n }\n  \n export default Page;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1750950689140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const Page = () => {\n   return ( \n-    <div className=\"\">\n+    <div className=\"font-bold\">\n       <h1>Hello Vibe</h1>\n     </div>\n    );\n }\n"
+                },
+                {
+                    "date": 1750950703179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const Page = () => {\n+  return ( \n+    <div className=\"font-bold \">\n+      <h1>Hello Vibe</h1>\n+    </div>\n+   );\n+}\n+ \n+export default Page;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1750950710276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,9 @@\n const Page = () => {\n   return ( \n-    <div className=\"font-bold \">\n+    <div className=\"font-bold text-rose-500\">\n       <h1>Hello Vibe</h1>\n     </div>\n    );\n }\n  \n-export default Page;\n-const Page = () => {\n-  return ( \n-    <div className=\"font-bold\">\n-      <h1>Hello Vibe</h1>\n-    </div>\n-   );\n-}\n- \n export default Page;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1750950357104,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}
